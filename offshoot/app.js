@@ -14,7 +14,7 @@ const pillarData = {
     kicker: "Prepare Your Home",
     title: "Useful readiness without fear-based selling.",
     body:
-      "Practical kits and education for water, power, first response, food basics, and home systems people can understand before they need them.",
+      "Practical kits and education for water, power, first response, food basics, and systems people and pet owners can understand before they need them.",
     points: [
       "Home-ready survival and storm kits",
       "Simple checklists for first-time buyers",
@@ -25,7 +25,7 @@ const pillarData = {
     kicker: "Build Your Voice",
     title: "A social pillar for people building something real.",
     body:
-      "Coaching, clips, page setup, and content systems for creators, local businesses, founders, and people who need a stronger online presence.",
+      "Coaching, clips, page setup, and content systems for creators, local businesses, pet brands, founders, and people who need a stronger online presence.",
     points: [
       "Profile positioning and niche strategy",
       "Short-form content planning",
@@ -36,7 +36,7 @@ const pillarData = {
     kicker: "Join The Network",
     title: "Like-minded people tied together through real events.",
     body:
-      "Webinars, hosts, guests, members, and aligned communities help people get seen through useful conversations instead of empty follower promises.",
+      "Webinars, hosts, guests, members, pet owners, and aligned communities help people get seen through useful conversations instead of empty follower promises.",
     points: [
       "Live creator and business webinars",
       "Featured audience exchange moments",
@@ -53,6 +53,7 @@ const markets = [
   ["Trade careers", "Electricians, HVAC, plumbing, welding, apprenticeships, and field stories."],
   ["Recovery and restart", "Life rebuild content, accountability groups, and practical coaching."],
   ["Small food brands", "Farmers markets, meal prep, pop-ups, drinks, and local drops."],
+  ["Pet care and pet wellness", "Pet-ready homes, daily care, treats, travel, trusted products, and local services."],
   ["Fitness coaches", "Short challenges, testimonials, live sessions, and referral loops."],
   ["Tutors and youth programs", "Parent trust content, student wins, and local education pages."],
   ["Micro real estate", "Rental readiness, first-time buyers, local property education, and tours."],
