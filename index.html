@@ -6,9 +6,12 @@
     <title>LRC Property LLC</title>
     <meta
       name="description"
-      content="Bring us your ideas and we'll help make them real through practical software, modern tools, and focused product development."
+      content="Bring us your ideas and we'll help make them real through practical software, modern tools, and focused development."
     />
     <link rel="stylesheet" href="./styles.css?v=3" />
+    <link rel="stylesheet" href="./assets/ai-workflows.css?v=1" />
+    <script src="./assets/lead-form.js?v=1" defer></script>
+    <script src="./assets/ai-workflows.js?v=1" defer></script>
   </head>
   <body>
     <div class="site-shell">
@@ -19,12 +22,13 @@
 
         <div class="masthead">
           <p class="eyebrow">LRC Property LLC</p>
-          <p class="micro-meta">Software products, business tools, and company systems</p>
+          <p class="micro-meta">Practical software tools and company systems</p>
         </div>
 
         <div class="header-links">
-          <a class="header-link" href="#products">Products</a>
-          <a class="header-link" href="mailto:admin@lrcpropertyllc.com">Contact</a>
+          <a class="header-link" href="#products">Tools</a>
+          <a class="header-link" href="./careers/">Careers</a>
+          <a class="header-link" href="#lead">Contact</a>
         </div>
       </header>
 
@@ -36,36 +40,121 @@
             <h1>Bring us your ideas and we’ll help make them real.</h1>
             <p class="hero-motto">From Practical Tech to Smarter Data and Jobs.</p>
             <p class="hero-lede">
-              LRC Property LLC develops practical software products, modern business tools, and AI
+              LRC Property LLC develops practical software tools, modern business systems, and AI
               systems shaped around useful work, stronger operations, and long-term value.
             </p>
             <div class="hero-actions">
-              <a class="primary-button" href="#products">See products</a>
-              <a class="secondary-button" href="mailto:admin@lrcpropertyllc.com">Contact</a>
+              <a class="primary-button" href="#products">See tools</a>
+              <a class="secondary-button" href="#lead">Request help</a>
             </div>
           </div>
         </section>
 
         <section class="message-panel" aria-label="Company focus">
           <p>
-            We build focused software products, practical business tools, and selected company
+            We build focused software tools, practical business systems, and selected company
             systems designed to hold up over time.
           </p>
         </section>
 
+        <section class="ai-workflow" id="ai-router" data-ai-workflow>
+          <div class="ai-workflow-header">
+            <p class="eyebrow">AI-guided routing</p>
+            <h2>Start with the idea, then route it to the right LRC path.</h2>
+            <p>
+              Use this quick workflow to clarify what belongs under JobsAI., Formed., Between The
+              Lines., Be Happy., or a broader LRC build path.
+            </p>
+          </div>
+
+          <div class="ai-tabs" role="tablist" aria-label="LRC routing workflow">
+            <button class="ai-tab" type="button" data-ai-tab="route">Route the idea</button>
+            <button class="ai-tab" type="button" data-ai-tab="process">How we work</button>
+            <button class="ai-tab" type="button" data-ai-tab="next">Next action</button>
+          </div>
+
+          <div class="ai-panel" data-ai-panel="route">
+            <div class="ai-panel-grid">
+              <form class="ai-process-card ai-form" data-ai-form="parent">
+                <label>
+                  Idea or need
+                  <input name="idea" maxlength="120" placeholder="A hiring tool, business idea, report, or daily tracker" />
+                </label>
+                <label>
+                  Who is it for?
+                  <input name="audience" maxlength="120" placeholder="Owners, applicants, families, teams, customers" />
+                </label>
+                <label>
+                  What should it solve?
+                  <textarea name="need" maxlength="420" placeholder="Describe the problem in plain language."></textarea>
+                </label>
+                <label>
+                  Closest path
+                  <select name="path">
+                    <option>Not sure yet</option>
+                    <option>Hiring or jobs</option>
+                    <option>Business formation</option>
+                    <option>Conversation analysis</option>
+                    <option>Recovery or daily support</option>
+                  </select>
+                </label>
+                <button class="primary-button" type="submit">Route this idea</button>
+              </form>
+
+              <div class="ai-output" data-ai-output="parent" aria-live="polite">
+                <p class="panel-label">Route preview</p>
+                <h3>Tell us what you want to build.</h3>
+                <p>
+                  The workflow will recommend the closest LRC path and the first useful next step.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ai-panel" data-ai-panel="process">
+            <div class="ai-panel-grid">
+              <article class="ai-process-card">
+                <p class="panel-label">Step 1</p>
+                <h3>Clarify the user problem.</h3>
+                <p>We start by turning broad ideas into a specific customer need and practical outcome.</p>
+              </article>
+              <article class="ai-process-card">
+                <p class="panel-label">Step 2</p>
+                <h3>Choose the working tool path.</h3>
+                <p>The idea is routed into a product, service, or operating layer that can actually support it.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="ai-panel" data-ai-panel="next">
+            <div class="ai-panel-grid">
+              <article class="ai-process-card">
+                <p class="panel-label">Best next action</p>
+                <h3>Send one short request.</h3>
+                <p>After the route preview, send the request below so LRC can review it under the right path.</p>
+              </article>
+              <article class="ai-process-card">
+                <p class="panel-label">Where it goes</p>
+                <h3>One intake, multiple tools.</h3>
+                <p>The same intake can point toward hiring, formation, conversation review, recovery support, or a new build.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
         <section class="products-panel" id="products">
           <div class="section-heading">
-            <p class="eyebrow">Current offers</p>
-            <h2>Products under LRC Property LLC.</h2>
+            <p class="eyebrow">LRC tools</p>
+            <h2>Tools under LRC Property LLC.</h2>
             <p>
-              A working group of software products and company services developed under one LRC cloud.
+              A working set of practical tools and company services developed under one LRC cloud.
             </p>
           </div>
 
           <div class="product-grid">
             <article class="product-card live-card">
               <div class="product-topline">
-                <span class="status live">Core offer</span>
+                <span class="status live">Hiring tool</span>
                 <span class="price">Starting at $99</span>
               </div>
               <h3>JobsAI.</h3>
@@ -74,41 +163,41 @@
                 A jobs platform centered on listings, hiring activity, and practical employment
                 use.
               </p>
-              <p class="premium-note">Premium options can include AI implementation tools such as resume building, listing upgrades, and recruiting support.</p>
-              <p class="premium-meta">Premium pricing from $249.</p>
-              <p class="card-note">A priority platform within the company lineup.</p>
+              <p class="premium-note">Expanded tools can include resume building, profile copy, listing upgrades, and recruiting support.</p>
+              <p class="premium-meta">Expanded support from $249.</p>
+              <a class="card-link" href="./jobsai/">Open tool.</a>
             </article>
 
             <article class="product-card live-card">
               <div class="product-topline">
-                <span class="status live">Signature offer</span>
+                <span class="status live">LLC formation review</span>
                 <span class="price">Starting at $2,500 + state fees</span>
               </div>
               <h3>Formed.</h3>
               <p class="product-tagline">Where Ideas Become Businesses.</p>
               <p class="product-copy">
-                A higher-touch formation product for people who want to move from an idea to a real
-                LLC with a clearer process and stronger business setup.
+                A higher-touch LLC formation review for people who want to move from an idea to a
+                real LLC with a clearer process and stronger setup.
               </p>
-              <p class="premium-note">Premium packages can add AI-assisted implementation, deeper document support, and business setup services.</p>
-              <p class="premium-meta">Premium pricing from $4,500.</p>
-              <p class="card-note">A cornerstone formation product within the company lineup.</p>
+              <p class="premium-note">Expanded packages can add AI-assisted implementation, deeper document support, and business setup services.</p>
+              <p class="premium-meta">Expanded support from $4,500.</p>
+              <a class="card-link" href="./formed/">Open tool.</a>
             </article>
 
             <article class="product-card">
               <div class="product-topline">
-                <span class="status">Available now</span>
+                <span class="status">Analysis tool</span>
                 <span class="price">$12 per report</span>
               </div>
               <h3>Between The Lines.</h3>
               <p class="product-tagline">The Analysis Companion You Need.</p>
               <p class="product-copy">
-                A conversation analysis product for inspecting timing, gaps, shifts, and key
+                A conversation analysis tool for inspecting timing, gaps, shifts, and key
                 moments without rereading an entire thread.
               </p>
-              <p class="premium-note">Premium options can add AI-assisted implementation, deeper report layers, and export support.</p>
-              <p class="premium-meta">Premium pricing from $49 per report.</p>
-              <a class="card-link" href="https://between-the-lines-po4k.onrender.com">Open Between The Lines.</a>
+              <p class="premium-note">Expanded report tools can add deeper review layers and export support.</p>
+              <p class="premium-meta">Expanded reports from $49.</p>
+              <a class="card-link" href="https://betweenthelines.lrcpropertyllc.com/between-the-lines">Open tool.</a>
             </article>
 
             <article class="product-card">
@@ -117,14 +206,14 @@
                 <span class="price">Starting at $499</span>
               </div>
               <h3>AI Training + Builds.</h3>
-              <p class="product-tagline">Practical AI training and guided product development.</p>
+              <p class="product-tagline">Practical AI training and guided tool development.</p>
               <p class="product-copy">
                 Training, guided builds, and hands-on support for people who want to learn AI,
                 build useful software, and put the tools to work in real settings.
               </p>
-              <p class="premium-note">Premium options can expand into AI-assisted implementation, classes, cohorts, and build support.</p>
-              <p class="premium-meta">Premium pricing from $1,500.</p>
-              <p class="card-note">Offered as part of the broader studio practice.</p>
+              <p class="premium-note">Expanded support can include AI-assisted implementation, classes, cohorts, and build support.</p>
+              <p class="premium-meta">Expanded support from $1,500.</p>
+              <p class="card-note">Available through the broader studio practice.</p>
             </article>
 
             <article class="product-card">
@@ -133,30 +222,46 @@
                 <span class="price">Starting at $299/month</span>
               </div>
               <h3>Worker + Owner Matching.</h3>
-              <p class="product-tagline">Connecting people, projects, and business needs.</p>
+              <p class="product-tagline">Helping the right people find the right work.</p>
               <p class="product-copy">
-                A matching layer designed to connect workers, operators, and company needs more
-                directly.
+                A practical matching service for owners who need support and workers who want a
+                clearer path into useful projects.
               </p>
-              <p class="premium-note">Premium options can expand into AI-assisted matching, placement, and business support.</p>
-              <p class="premium-meta">Premium pricing from $1,250/month.</p>
-              <p class="card-note">Positioned as an added company service.</p>
+              <p class="premium-note">Expanded tools can include AI-assisted matching, onboarding, role fit, and business support.</p>
+              <p class="premium-meta">Expanded support from $1,250/month.</p>
+              <p class="card-note">Built as a people-first support layer across LRC tools.</p>
             </article>
 
-            <article class="product-card">
+            <article class="product-card live-card">
               <div class="product-topline">
-                <span class="status">Companion app</span>
-                <span class="price">Starting at $12/month</span>
+                <span class="status live">LRC tool family</span>
+                <span class="price">Hyper@LRCPropertyLLC.com</span>
+              </div>
+              <h3>Off Shoot.</h3>
+              <p class="product-tagline">Sustainable living with a built-in media growth pillar.</p>
+              <p class="product-copy">
+                A separate brand concept for practical self-reliance, wellness products,
+                preparedness kits, creator coaching, webinars, and social growth.
+              </p>
+              <p class="premium-note">Published under the LRCPropertyLLC.com family of tool groups while staying focused as its own standalone brand.</p>
+              <p class="premium-meta">Off Shoot group ready for review.</p>
+              <a class="card-link" href="./offshoot/">Open Off Shoot.</a>
+            </article>
+
+            <article class="product-card live-card">
+              <div class="product-topline">
+                <span class="status live">Daily tool</span>
+                <span class="price">Free tracker</span>
               </div>
               <h3>Be Happy.</h3>
               <p class="product-tagline">One Day, One Step, At A Time.</p>
               <p class="product-copy">
-                Your AI Recovery Companion. A separate recovery product with its own customer
-                experience and dedicated product path.
+                Your AI Recovery Companion. A daily progress tracker with recovery resources and a
+                dedicated tool path.
               </p>
-              <p class="premium-note">Premium tiers can add AI-assisted planning, expanded companion tools, and guided support features.</p>
-              <p class="premium-meta">Premium pricing from $39/month.</p>
-              <p class="card-note">Presented as a dedicated companion product.</p>
+              <p class="premium-note">Optional giving routes to the official foundation page; no payment is collected here.</p>
+              <p class="premium-meta">Tracker available free.</p>
+              <a class="card-link" href="./behappy/">Open tool.</a>
             </article>
 
             <article class="product-card">
@@ -164,15 +269,15 @@
                 <span class="status">Company systems</span>
                 <span class="price">Operating layer</span>
               </div>
-              <h3>Data + Scale.</h3>
-              <p class="product-tagline">Shared systems for long-term company development.</p>
+              <h3>Systems + Scale.</h3>
+              <p class="product-tagline">Shared support for long-term company development.</p>
               <p class="product-copy">
                 Shared company systems for organizing operations, improving decisions, and
-                supporting the wider product group.
+                supporting the wider tool group.
               </p>
-              <p class="premium-note">Designed to support the wider company with AI-assisted tooling where it adds leverage.</p>
-              <p class="premium-meta">Built to support the wider company behind the scenes.</p>
-              <p class="card-note">Maintained as part of the company operating layer.</p>
+              <p class="premium-note">Designed to support useful tools with clearer workflows where they add leverage.</p>
+              <p class="premium-meta">Part of the LRC operating layer.</p>
+              <p class="card-note">Maintained quietly behind the customer-facing tools.</p>
             </article>
           </div>
         </section>
@@ -180,17 +285,17 @@
         <section class="vision-panel">
           <div class="section-heading">
             <p class="eyebrow">About the company</p>
-            <h2>Built to support multiple products under one cloud.</h2>
+            <h2>Built to support multiple tools under one cloud.</h2>
           </div>
 
           <div class="vision-grid">
             <div class="vision-copy">
               <p>
-                LRC Property LLC is designed to support multiple software products, services, and
+                LRC Property LLC is designed to support multiple software tools, services, and
                 supporting systems under one LRC cloud.
               </p>
               <p>
-                The goal is to keep each offering clear on the customer side while maintaining a
+                The goal is to keep each tool clear on the customer side while maintaining a
                 stronger shared operating layer behind it.
               </p>
             </div>
@@ -210,10 +315,80 @@
               </div>
               <div>
                 <span>Hiring</span>
-                <p><a href="#hiring">Executive Assistant</a></p>
+                <p><a href="./careers/">Executive Assistant</a></p>
               </div>
             </div>
           </div>
+        </section>
+
+        <section class="lead-panel" id="lead">
+          <div class="section-heading">
+            <p class="eyebrow">Start here</p>
+            <h2>Tell us what you are trying to build or solve.</h2>
+            <p>
+              Use one short note to route the request to the right LRC tool or service path.
+            </p>
+          </div>
+
+          <form class="lead-form" id="lead-form">
+            <input type="hidden" name="source" value="lrc-parent" />
+
+            <div class="form-grid">
+              <label>
+                Name
+                <input name="name" autocomplete="name" placeholder="Your name" />
+              </label>
+
+              <label>
+                Email
+                <input name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+              </label>
+            </div>
+
+            <label>
+              What are you interested in?
+              <select name="toolInterest" required>
+                <option value="">Choose a path</option>
+                <option>JobsAI.</option>
+                <option>Formed.</option>
+                <option>Between The Lines.</option>
+                <option>Be Happy.</option>
+                <option>AI Training + Builds.</option>
+                <option>Worker + Owner Matching.</option>
+                <option>General LRC request</option>
+              </select>
+            </label>
+
+            <label>
+              Short note
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="What do you want help with?"
+                required
+              ></textarea>
+            </label>
+
+            <label class="check-line">
+              <input name="contactConsent" type="checkbox" required />
+              <span>I agree to be contacted by LRC Property LLC about this request.</span>
+            </label>
+
+            <label class="check-line">
+              <input name="researchConsent" type="checkbox" />
+              <span>
+                I agree to allow anonymized request patterns to help improve LRC tools. Private
+                uploads and identifying details are not sold.
+              </span>
+            </label>
+
+            <div class="lead-actions">
+              <button class="primary-button" type="submit">Send request</button>
+              <a class="secondary-button" href="mailto:admin@lrcpropertyllc.com">Email instead</a>
+            </div>
+
+            <p class="form-status" id="lead-status" aria-live="polite"></p>
+          </form>
         </section>
 
         <section class="hiring-panel" id="hiring">
@@ -221,26 +396,26 @@
             <p class="eyebrow">Now Hiring</p>
             <h2>Executive Assistant.</h2>
             <p>
-              We are currently hiring Executive Assistant support as the portfolio grows.
+              Apply directly through LRC Property LLC.
             </p>
           </div>
 
           <div class="hiring-card">
             <p class="hiring-copy">
-              If you want to support launches, operations, and the day-to-day work behind a growing
-              product studio, use the current posting.
+              This role supports launches, operations, research, scheduling, applicant routing,
+              and the day-to-day work behind the LRC tool group.
             </p>
-            <a class="primary-button" href="https://www.linkedin.com/jobs/executive-personal-assistant-jobs-san-diego-ca">Apply here</a>
+            <a class="primary-button" href="./careers/">Apply through LRC</a>
           </div>
         </section>
 
         <section class="legal-panel" id="legal">
           <div class="section-heading">
             <p class="eyebrow">Legal notices</p>
-            <h2>Important terms for all LRC offers.</h2>
+            <h2>Important terms for LRC tools and services.</h2>
             <p>
-              These notices apply generally across LRC Property LLC products and services. Individual
-              product pages, written agreements, and checkout terms may include additional details.
+              These notices apply generally across LRC Property LLC tools and services. Individual
+              tool pages, written agreements, and checkout terms may include additional details.
             </p>
           </div>
 
@@ -248,7 +423,7 @@
             <article class="legal-card">
               <h3>No professional advice</h3>
               <p>
-                LRC Property LLC provides software, business support, informational products, and
+                LRC Property LLC provides software, business support, informational tools, and
                 related services. Nothing on this site is legal, tax, financial, medical,
                 investigative, employment, or other professional advice.
               </p>
@@ -268,7 +443,7 @@
               <p>
                 We do not guarantee accuracy, completeness, approvals, filings, placements,
                 revenue, business outcomes, recovery outcomes, or any specific result from an AI
-                tool, report, product, service, or recommendation.
+                tool, report, service, or recommendation.
               </p>
             </article>
 
@@ -291,7 +466,7 @@
             </article>
 
             <article class="legal-card">
-              <h3>AI and product limits</h3>
+              <h3>AI and tool limits</h3>
               <p>
                 AI-assisted tools can be incomplete, outdated, or wrong. Outputs are meant to help
                 review, organize, draft, or explore information, not replace qualified judgment or
@@ -326,8 +501,9 @@
         </div>
         <div class="footer-links">
           <a href="mailto:admin@lrcpropertyllc.com">Admin</a>
-          <a href="#hiring">Now Hiring</a>
-          <a href="#products">Products</a>
+          <a href="./careers/">Careers</a>
+          <a href="mailto:careers@lrcpropertyllc.com">careers@lrcpropertyllc.com</a>
+          <a href="#products">Tools</a>
           <a href="#legal">Legal</a>
         </div>
       </footer>
