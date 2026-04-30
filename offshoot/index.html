@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Off Shoot | Sustainable living and media growth</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Off Shoot home">
+        <span class="brand-mark">OS</span>
+        <span>Off Shoot</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#pillars">Pillars</a>
+        <a href="#media">Media</a>
+        <a href="#kits">Kits</a>
+        <a href="#webinar">Webinar</a>
+      </nav>
+
+      <a class="header-action" href="#join">Start here</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Sustainable living. Practical growth. Real audience.</p>
+          <h1>The future starts with one seed. Plant yours.</h1>
+          <p class="hero-copy">
+            Off Shoot helps people take their life back through better habits, useful
+            preparedness, pet-ready living, wellness products, and a media engine built
+            for creators, founders, and local businesses.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#join">Join the first drop</a>
+            <a class="secondary-button" href="#media">See the media pillar</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Brand promise">
+        <p>
+          A modern self-reliance brand with a built-in promotion network: grow your
+          life, prepare your home, build your voice, and connect with people already
+          moving in the same direction.
+        </p>
+      </section>
+
+      <section class="community-tie" aria-label="Like-minded community">
+        <div>
+          <p class="eyebrow">The major tie</p>
+          <h2>Like-minded people make the platform work.</h2>
+          <p>
+            Off Shoot is not just products or posts. It ties together people who want
+            cleaner routines, practical readiness, stronger voices, pet-ready homes, and
+            a community that helps each member keep moving.
+          </p>
+        </div>
+
+        <div class="tie-grid">
+          <article>
+            <span>Members</span>
+            <h3>People choosing a better direction.</h3>
+            <p>Wellness, preparedness, personal growth, and useful daily habits.</p>
+          </article>
+          <article>
+            <span>Creators</span>
+            <h3>People with something worth sharing.</h3>
+            <p>Hosts, coaches, founders, guests, and promoters creating real attention.</p>
+          </article>
+          <article>
+            <span>Markets</span>
+            <h3>Communities ready for a practical voice.</h3>
+            <p>Local businesses and niche audiences connected through events and media.</p>
+          </article>
+          <article>
+            <span>Pets</span>
+            <h3>A huge household audience with daily needs.</h3>
+            <p>Pet owners are a major market for wellness, readiness, home routines, and trusted products.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="pillars">
+        <div class="section-heading">
+          <p class="eyebrow">The brand system</p>
+          <h2>Four pillars, one clear direction.</h2>
+        </div>
+
+        <div class="pillar-layout">
+          <div class="pillar-tabs" role="tablist" aria-label="Off Shoot pillars">
+            <button class="pillar-tab active" type="button" data-pillar="life" role="tab" aria-selected="true">
+              Grow Your Life
+            </button>
+            <button class="pillar-tab" type="button" data-pillar="home" role="tab" aria-selected="false">
+              Prepare Your Home
+            </button>
+            <button class="pillar-tab" type="button" data-pillar="voice" role="tab" aria-selected="false">
+              Build Your Voice
+            </button>
+            <button class="pillar-tab" type="button" data-pillar="network" role="tab" aria-selected="false">
+              Join The Network
+            </button>
+          </div>
+
+          <article class="pillar-panel" id="pillarPanel">
+            <p class="panel-kicker">Grow Your Life</p>
+            <h3>Daily choices that make independence feel possible.</h3>
+            <p>
+              Matcha, wellness routines, simple food systems, and sustainable swaps
+              packaged for people who want a cleaner, more grounded daily rhythm.
+            </p>
+            <ul>
+              <li>Starter guides for sustainable habits</li>
+              <li>Matcha and wellness product drops</li>
+              <li>Short coaching videos for real-life routines</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="split-section" id="media">
+        <div class="media-copy">
+          <p class="eyebrow">Off Shoot Media</p>
+          <h2>Turnkey social growth without fake promises.</h2>
+          <p>
+            Build niche media pages, produce short-form clips, host live webinars, and
+            activate a real creator network around products, services, pets, and local markets.
+          </p>
+
+          <div class="offer-grid">
+            <article>
+              <span>01</span>
+              <h3>Niche setup</h3>
+              <p>Positioning, page identity, content buckets, and launch calendar.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Promoter network</h3>
+              <p>Creators, hosts, and aligned audiences brought together around real events.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Clip engine</h3>
+              <p>Webinars, coaching, and conversations turned into consistent social posts.</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Market rollout</h3>
+              <p>Repeatable playbooks for local businesses, pet care, and underserved online niches.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="market-card">
+          <div class="market-card-header">
+            <p>Untapped market ideas</p>
+            <button type="button" id="shuffleMarkets" aria-label="Shuffle market ideas">Shuffle</button>
+          </div>
+          <div class="market-list" id="marketList" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="product-band" id="kits">
+        <div class="section-heading">
+          <p class="eyebrow">First product lanes</p>
+          <h2>Sell the lifestyle, then serve it.</h2>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <img
+              src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=900&q=80"
+              alt="Matcha tea being prepared"
+            />
+            <div>
+              <p>Wellness Drop</p>
+              <h3>Matcha starter set</h3>
+              <span>Daily energy, calmer routine, clean ritual.</span>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img
+              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80"
+              alt="Prepared outdoor kit on a wooden surface"
+            />
+            <div>
+              <p>Preparedness</p>
+              <h3>Home-ready kit</h3>
+              <span>Practical basics for weather, power, water, pets, and first response.</span>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img
+              src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=900&q=80"
+              alt="Creator desk with notebook and laptop"
+            />
+            <div>
+              <p>Creator Tools</p>
+              <h3>Content system</h3>
+              <span>Topic maps, clip prompts, webinar outlines, and weekly planning.</span>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <img
+              src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=900&q=80"
+              alt="Dogs walking outdoors with their owner"
+            />
+            <div>
+              <p>Pet Living</p>
+              <h3>Pet-ready life kit</h3>
+              <span>Trusted products, home routines, travel basics, and pet wellness prompts.</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="webinar-section" id="webinar">
+        <div>
+          <p class="eyebrow">Live growth event</p>
+          <h2>A webinar that gives people something real to follow.</h2>
+          <p>
+            Hosted conversations with creators, pet owners, business builders, and media guests.
+            Each session gives attendees a topic, a tactic, and a chance to be seen by
+            like-minded people in the network.
+          </p>
+        </div>
+
+        <ol class="agenda">
+          <li>
+            <span>Opening</span>
+            <strong>What are you trying to grow?</strong>
+          </li>
+          <li>
+            <span>Session one</span>
+            <strong>Build a page people understand in five seconds.</strong>
+          </li>
+          <li>
+            <span>Session two</span>
+            <strong>Turn one conversation into ten clips.</strong>
+          </li>
+          <li>
+            <span>Network close</span>
+            <strong>Follow, feature, and keep the momentum moving.</strong>
+          </li>
+        </ol>
+      </section>
+
+      <section class="join-section" id="join">
+        <div>
+          <p class="eyebrow">Mockup CTA</p>
+          <h2>Start with the first Off Shoot drop.</h2>
+          <p>
+            Collect early interest for sustainable living kits, pet-ready living, creator coaching,
+            and the first live media-growth webinar for like-minded builders.
+          </p>
+        </div>
+        <form class="join-form">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" />
+          </label>
+          <label>
+            What are you interested in?
+            <select name="interest">
+              <option>Living better</option>
+              <option>Pet care and pet-ready living</option>
+              <option>Preparedness kits</option>
+              <option>Social media growth</option>
+              <option>Creator webinar</option>
+            </select>
+          </label>
+          <button type="submit">Request early access</button>
+          <p class="form-note" id="formNote" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Off Shoot</span>
+      <span>Part of the LRCPropertyLLC.com family of tool groups.</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
