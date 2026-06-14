@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /formed/
+Disallow: /jobsai/
+Disallow: /behappy/
+Disallow: /admin/
+Disallow: /portal/
+Disallow: /app/
+Disallow: /knowledge/
+
+Sitemap: https://kengaroo0101.github.io/btl-app/sitemap.xml
